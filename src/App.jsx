@@ -41,7 +41,7 @@ const App = () => {
             Best AI Marketing Soluion Landing page with User interface.
           </p>
 
-          <div className="font-Russo hover:scale-[1.05] transform duration-200 Watch-Now-Btn">
+          <div className="font-Russo hover:scale-[1.05] transform duration-200 Watch-Now-Btn ml-1">
             Watch Now
             <img src={playicon} alt="" width={27} height={27} />
           </div>
@@ -51,9 +51,9 @@ const App = () => {
         <section className="  relative flex ">
           <div className="flex flex-col gap-[135px] items-center">
             <img src={marketing} alt="" width={165} className="mr-[-220px] animated-box box1"  />
-            <img src={seo} alt="" width={112} className=" mr-[-120px] animated-box box2" />
-            <img src={copyright} alt="" width={165} className="mr-[-20px] animated-box box3" />
-            <img src={cloude} alt="" width={165} className="mr-[-100px] animated-box box4" />
+            <img src={seo} alt="" width={112} className=" mr-[-120px] animated-box box" />
+            <img src={copyright} alt="" width={165} className="mr-[-20px] animated-box box" />
+            <img src={cloude} alt="" width={165} className="mr-[-100px] animated-box box" />
           </div>
 
           <div className="flex justify-center items-center relative  mr-[-75px] mt-[-125px] z-[99]">

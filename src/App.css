@@ -110,7 +110,7 @@ body {
   position: absolute;
 
   animation-name: dotedCircle;
-  animation-duration: 3s;
+  animation-duration: 59s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
