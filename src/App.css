@@ -159,16 +159,34 @@ body {
 /* *********************BOX ANIMATION************** */
 
 /* Box-1 */
+
+
+/* New */
+
+.animated-box {
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
 .box1 {
+  animation-name: moveAnimation1;
+  animation-duration: 8s;
   animation-delay: 0s;
 }
 
-.animated-box {
-  animation: moveAnimation 8s linear infinite;
-  animation-fill-mode: both;
+.box2 {
+  animation-name: moveAnimation2;
+  animation-duration: 8s;
+  animation-delay: 8s !important;
 }
 
-@keyframes moveAnimation {
+.box3 {
+  animation-name: moveAnimation3;
+  animation-duration: 8s;
+  animation-delay: 16s !important;
+}
+
+@keyframes moveAnimation1 {
   0% {
     transform: translateX(100px) translateY(0);
     opacity: 0.1;
@@ -178,11 +196,11 @@ body {
     opacity: 1;
   }
   50% {
-    transform: translateX(-100px) translateY(600px);
+    transform: translateX(-100px) translateY(520px);
     opacity: 1;
   }
   75% {
-    transform: translateX(100px) translateY(600px);
+    transform: translateX(100px) translateY(520px);
     opacity: 0.1;
   }
   100% {
@@ -191,16 +209,49 @@ body {
   }
 }
 
-.box2 {
-  animation-delay: 2s;
+@keyframes moveAnimation2 {
+  0% {
+    transform: translateX(100px) translateY(0);
+    opacity: 0.1;
+  }
+  25% {
+    transform: translateX(-100px) translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(-100px) translateY(520px);
+    opacity: 1;
+  }
+  75% {
+    transform: translateX(100px) translateY(520px);
+    opacity: 0.1;
+  }
+  100% {
+    transform: translateX(100px) translateY(0);
+    opacity: 0;
+  }
 }
 
-
-.box3 {
-  animation-delay: 4s;
+@keyframes moveAnimation3 {
+  0% {
+    transform: translateX(100px) translateY(0);
+    opacity: 0.1;
+  }
+  25% {
+    transform: translateX(-100px) translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(-100px) translateY(520px);
+    opacity: 1;
+  }
+  75% {
+    transform: translateX(100px) translateY(520px);
+    opacity: 0.1;
+  }
+  100% {
+    transform: translateX(100px) translateY(0);
+    opacity: 0;
+  }
 }
 
-
-.box4 {
-  animation-delay: 6s;
-}
