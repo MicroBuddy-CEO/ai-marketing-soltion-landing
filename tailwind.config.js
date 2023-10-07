@@ -6,11 +6,7 @@ export default {
       Russo: ["Russo One", "sans-serif"],
       Sarina: ["Sarina", "cursive"],
     },
-    extend: {
-      colors: {
-        "regal-blue": "#243c5a",
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };

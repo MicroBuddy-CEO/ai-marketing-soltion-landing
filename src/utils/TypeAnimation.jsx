@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 
 const TypinAnimation = () => {
-  const text = "EMPLETE"; // Replace with your desired text
+  const text = "EMPLETE"; 
   const [displayText, setDisplayText] = useState("");
-  const typingSpeed = 200; // Adjust the typing speed as needed (in milliseconds)
+  const typingSpeed = 200;
 
   useEffect(() => {
     let currentIndex = 0;
@@ -13,7 +13,7 @@ const TypinAnimation = () => {
         setDisplayText(text.slice(0, currentIndex));
         currentIndex++;
       } else {
-        currentIndex = 0; // Reset to the beginning of the text
+        currentIndex = 0; 
         setDisplayText("");
       }
     }, typingSpeed);
